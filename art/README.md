@@ -1,6 +1,6 @@
 # ASL Art Gallery
 
-Display my art projects, using the Quasar Framework.
+Learn to code & display my art work, using the Quasar Framework. [Demo](https://adelesli.github.io/myart).
 
 ## Install the dependencies
 ```bash
