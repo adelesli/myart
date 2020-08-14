@@ -8,7 +8,7 @@
 import ArtPiece from '../components/ArtPiece'
 
 export default {
-  name: 'Castellan',
+  name: 'pageHappy',
 
   components: {
     ArtPiece

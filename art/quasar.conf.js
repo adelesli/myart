@@ -107,10 +107,6 @@ module.exports = function (/* ctx */) {
       plugins: []
     },
 
-    // animations: 'all', // --- includes all animations
-    // https://quasar.dev/options/animations
-    animations: [],
-
     // https://quasar.dev/quasar-cli/developing-ssr/configuring-ssr
     ssr: {
       pwa: false
@@ -121,9 +117,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'FadedFilm App',
-        short_name: 'FadedFilm App',
-        description: 'A FadedFilm Project',
+        name: 'ASL App',
+        short_name: 'ASL App',
+        description: 'An ASL Project',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',

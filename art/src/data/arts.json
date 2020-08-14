@@ -2,6 +2,7 @@
   "arts": [
     {
       "source": "./images/art-1.jpg",
+      "date": "8/1/2020",
       "name": "Robbery",
       "description": "This is awesome!",
       "heart": true,

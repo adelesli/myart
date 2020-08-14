@@ -9,10 +9,10 @@
       >
 
       <q-card class="q-ma-sm">
-        <img :src='art.source' style="width: 18 em; height: 20em; object-fit: cover;" ratio="3/4">
+        <img :src='art.source' style="width: 18em; height: 20em; object-fit: cover;" ratio="3/4">
 
         <q-card-section>
-          <div class="text-body1">{{art.name}} <q-spinner-hearts v-if="art.heart" :color="art.color" size="2em" /></div>
+          <div class="text-body1">{{art.name}} <q-spinner-hourglass v-if="art.heart" :color="art.color" size="2em" /></div>
           <q-btn outline rounded  color="primary" label="Read more ..." @click="setActive(art)"></q-btn>
         </q-card-section>
       </q-card>
