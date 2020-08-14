@@ -37,7 +37,7 @@
 
             <q-item clickable v-ripple class="text-center">
               <q-item-section>
-                <q-item-label>Height: {{activeImage.description}}</q-item-label>
+                <q-item-label>Desc: {{activeImage.description}}</q-item-label>
               </q-item-section>
             </q-item>
 

@@ -62,10 +62,10 @@ const linksData = [
     link: 'index'
   },
   {
-    title: 'Castellan',
-    caption: 'Castellan',
+    title: 'Happy',
+    caption: 'Happy',
     icon: 'anchor',
-    link: 'castellan'
+    link: 'happy'
   }
 ]
 

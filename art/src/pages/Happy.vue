@@ -1,6 +1,6 @@
 <template>
   <div >
-    <ArtPiece :name="family"></ArtPiece>
+    <ArtPiece :name="name"></ArtPiece>
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   },
   data () {
     return {
-      family: 'Castellan'
+      name: 'Happy'
     }
   }
 }
