@@ -1,6 +1,6 @@
-# FadedFilm App (fl_web)
+# ASL Art Gallery
 
-A FadedFilm Project
+Display my art projects, using the Quasar Framework.
 
 ## Install the dependencies
 ```bash

@@ -1,7 +1,7 @@
 <template>
   <q-dialog ref="dialog" @hide="onDialogHide">
     <q-card class="q-dialog-plugin">
-      <q-card-section>{{character.family}}</q-card-section>
+      <q-card-section>{{art.name}}</q-card-section>
       <!-- buttons example -->
       <q-card-actions align="right">
         <q-btn color="primary" label="OK" @click="onOKClick" />
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  props: ['character'],
+  props: ['art'],
 
   methods: {
     // following method is REQUIRED

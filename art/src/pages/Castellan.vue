@@ -1,17 +1,17 @@
 <template>
   <div >
-    <Family :family="family"></Family>
+    <ArtPiece :name="family"></ArtPiece>
   </div>
 </template>
 
 <script>
-import Family from '../components/Family'
+import ArtPiece from '../components/ArtPiece'
 
 export default {
   name: 'Castellan',
 
   components: {
-    Family
+    ArtPiece
   },
   data () {
     return {

@@ -62,52 +62,10 @@ const linksData = [
     link: 'index'
   },
   {
-    title: 'Grace',
-    caption: 'Grace',
-    icon: 'api',
-    link: 'grace'
-  },
-  {
-    title: 'Jackson',
-    caption: 'Jackson',
-    icon: 'bubble_chart',
-    link: 'jackson'
-  },
-  {
     title: 'Castellan',
     caption: 'Castellan',
     icon: 'anchor',
     link: 'castellan'
-  },
-  {
-    title: 'Solace',
-    caption: 'Solace',
-    icon: 'wb_sunny',
-    link: 'solace'
-  },
-  {
-    title: 'McLean',
-    caption: 'McLean',
-    icon: 'photo_filter',
-    link: 'mclean'
-  },
-  {
-    title: 'Chase',
-    caption: 'Chase',
-    icon: 'filter_vintage',
-    link: 'chase'
-  },
-  {
-    title: 'Atkins',
-    caption: 'Atkins',
-    icon: 'bedtime',
-    link: 'atkins'
-  },
-  {
-    title: 'Stole',
-    caption: 'Stole',
-    icon: 'ac_unit',
-    link: 'stole'
   }
 ]
 

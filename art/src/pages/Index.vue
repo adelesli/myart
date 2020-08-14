@@ -1,21 +1,21 @@
 <template>
   <div >
-    <Family :family="family"></Family>
+    <ArtPiece :name="name"></ArtPiece>
   </div>
 </template>
 
 <script>
-import Family from '../components/Family'
+import ArtPiece from '../components/ArtPiece'
 
 export default {
   name: 'All',
 
   components: {
-    Family
+    ArtPiece
   },
   data () {
     return {
-      family: '*'
+      name: '*'
     }
   }
 }

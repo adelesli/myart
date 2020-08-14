@@ -2,18 +2,18 @@
 <div class="q-pa-md">
   <div class="row justify-center q-gutter-sm">
     <q-intersection
-        v-for="img in images"
-        :key="img.index"
+        v-for="art in arts"
+        :key="art.index"
         transition="scale"
         class="character-item"
       >
 
       <q-card class="q-ma-sm">
-        <img :src='img.source' style="width: 18 em; height: 20em; object-fit: cover;" ratio="3/4">
+        <img :src='art.source' style="width: 18 em; height: 20em; object-fit: cover;" ratio="3/4">
 
         <q-card-section>
-          <div class="text-body1">{{img.family}} <q-spinner-hearts v-if="img.heart" :color="img.color" size="2em" /></div>
-          <q-btn outline rounded  color="primary" label="Read more ..." @click="setActive(img)"></q-btn>
+          <div class="text-body1">{{art.name}} <q-spinner-hearts v-if="art.heart" :color="art.color" size="2em" /></div>
+          <q-btn outline rounded  color="primary" label="Read more ..." @click="setActive(art)"></q-btn>
         </q-card-section>
       </q-card>
     </q-intersection>
@@ -37,7 +37,7 @@
 
             <q-item clickable v-ripple class="text-center">
               <q-item-section>
-                <q-item-label>Height: {{activeImage.height}}</q-item-label>
+                <q-item-label>Height: {{activeImage.description}}</q-item-label>
               </q-item-section>
             </q-item>
 
@@ -66,13 +66,13 @@
 </template>
 
 <script>
-import characters from '../data/characters.json'
+import Arts from '../data/arts.json'
 import mixinShowcase from '../mixins/mixin-showcase'
 
 export default {
-  props: ['family'],
+  props: ['name'],
   mixins: [mixinShowcase],
-  name: 'Family',
+  name: 'name',
 
   components: {
     // ShowCase
@@ -80,7 +80,7 @@ export default {
   data () {
     return {
       activeImage: {},
-      images: (this.family === '*') ? characters.images : characters.images.filter(e => e.family.includes(this.family))
+      arts: (this.name === '*') ? Arts.arts : Arts.arts.filter(e => e.name.includes(this.name))
     }
   }
 }
